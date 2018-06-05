@@ -9,7 +9,7 @@
     <ul class="nav navbar-nav">
       <li class="active"><router-link to="/city">Home</router-link></li>
       
-      <li v-if="status == 0"><router-link to="/signup">Sign up</router-link></li>
+      <li v-if="status == 0"><router-link to="/signup">Sign Up</router-link></li>
       
       <li v-if="status == 0"><router-link to="/signin">Sign In</router-link></li>
     </ul>
